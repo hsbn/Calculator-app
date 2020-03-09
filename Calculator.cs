@@ -2,6 +2,14 @@ class Calculator
 {
 	static void Main(string[]args)
 	{
+		int a = 10;
+		int b = 6;
+		
+		Console.WriteLine("Hasil Penambahan: {0} + {1} = {2}", a, b, Penambahan(a, b));
+		Console.WriteLine("Hasil Penambahan: {0} - {1} = {2}", a, b, Penambahan(a, b));
+		
+		Console.WriteLine("\n Tekan Sembarang key untuk keluar");
+		Console.ReadKey();
 	
 	}
 	
